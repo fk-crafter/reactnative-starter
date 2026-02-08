@@ -30,19 +30,30 @@ Designed to be the fastest way to start a new mobile project with a scalable arc
 ├── hooks/              # Custom React hooks
 ├── services/           # API calls and external services
 └── assets/             # Images and Fonts
+```
 
-Quick Start
+## Quick Start
+
 1. Clone the repository
-git clone [https://github.com/fk-crafter/reactnative-starter.git](https://github.com/fk-crafter/reactnative-starter.git) my-new-app
-cd my-new-app
+
+```text
+   git clone [https://github.com/fk-crafter/reactnative-starter.git](https://github.com/fk-crafter/reactnative-starter.git) my-new-app
+   cd my-new-app
+```
 
 2. Install dependencies
-npm install
+
+```text
+   npm install
 # or
 pnpm install
 
+```
+
 3. Run the project
-npx expo start --clear
+
+```text
+   npx expo start --clear
+```
 
 Note: The --clear flag is recommended to ensure NativeWind compiles styles correctly on the first run.
-```
